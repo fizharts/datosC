@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pagina de datos</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.css' />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <h1 class="text-center">Datos <span id="fechaSpan"></span></h1>
+
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+
+
+    <div id="rubros" class="row">
+
+    </div>
+
+    <div class="table-responsive">
+
+        <table class="table table-hover">
+            <thead>
+                <tr id="rubros">
+                    <th>Estado</th>
+                    <th>fecha_actualizacion</th>
+                    <th>id_registro</th>
+                    <th>sector</th>
+
+                    <th>sexo</th>
+                    <th>entidad_nac</th>
+                    <th>entidad_res</th>
+                    <th>municipio_res</th>
+                    <th>tipo_paciente</th>
+                    <th>fecha_ingreso</th>
+                    <th>fecha_def</th>
+                    <th>edad</th>
+                    <th>nacionalidad</th>
+                    <th>rango_edad</th>
+                    <th>resultado_lab</th>
+                    <th>clasificacion_final</th>
+                    <th>clas_final_escrita</th>
+                    <th>confirmados</th>
+                    <th>sospechosos</th>
+                    <th>negativos</th>
+
+                </tr>
+            </thead>
+            <tbody id="datosCov">
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
